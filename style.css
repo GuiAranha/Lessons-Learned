@@ -1,27 +1,45 @@
 body{
     background-color: rgb(253, 251, 251);
+    padding: 3%;
 }
-.titulo{
+
+#titulo{
+    text-align: center;
+}
+
+#menu_navegacao{
+    list-style-type: none;
 
 }
 
-header#cabecalho{
+#cabecalho{
+    height: 130px;
+    width: 1366px;
     position: fixed;
     top: 0;
 }
 
-.minha_foto{
-
+#minha_foto{
+    margin-top: 140px;
 }
 
-.licoes_aprendidas{
-
+#licoes_aprendidas{
+    display: inline-block;
 }
 
-.licoes_a_aprender{
-
+#licoes_a_aprender{
+    display: inline-block;
 }
 
-.rodape{
-    
+#meu_aprendizado{
+    display: inline-block;
+}
+
+#passagem_aprendizado{
+    display: inline-block;
+}
+
+#rodape{
+    position: fixed;
+    bottom: 0;
 }
