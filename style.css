@@ -17,7 +17,7 @@ body{
 
 #cabecalho{
     height: 160px;
-    width: 1366px;
+    width: 100%;
     position: fixed;
     top: 0;
     background-color: rgb(61, 61, 230);
@@ -63,4 +63,7 @@ body{
 #rodape{
     position: fixed;
     bottom: 0;
+    background-color: rgb(61, 61, 230);
+    width: 100%;
+    color: white;
 }
