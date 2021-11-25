@@ -41,17 +41,23 @@ body{
 
 }
 
-#meu_aprendizado{
+.lado-esquerdo{
     display: inline-block;
     line-height: 20px;
-    border: 2px solid rgb(61, 61, 230);
+    padding: 5px;
+    border: 5px double rgb(61, 61, 230);
+    width: 600px;
+    vertical-align: top;
     
 }
 
-#passagem_aprendizado{
+.lado-direito{
     display: inline-block;
     line-height: 20px;
-    border: 2px solid rgb(61, 61, 230);
+    padding: 5px;
+    border: 5px double rgb(61, 61, 230);
+    width: 400px;
+    vertical-align: top;
 }
 
 #rodape{
