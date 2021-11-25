@@ -5,38 +5,53 @@ body{
 
 #titulo{
     text-align: center;
+    font-size: 48px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
 }
 
 #menu_navegacao{
     list-style-type: none;
-
+    color: white;
 }
 
 #cabecalho{
-    height: 130px;
+    height: 160px;
     width: 1366px;
     position: fixed;
     top: 0;
+    background-color: rgb(61, 61, 230);
 }
 
 #minha_foto{
     margin-top: 140px;
+    padding: 10px;
+    background-color: rgb(61, 61, 230);
 }
 
 #licoes_aprendidas{
     display: inline-block;
+    margin: 3px;
+
 }
 
 #licoes_a_aprender{
     display: inline-block;
+    margin: 3px;
+
 }
 
 #meu_aprendizado{
     display: inline-block;
+    line-height: 20px;
+    border: 2px solid rgb(61, 61, 230);
+    
 }
 
 #passagem_aprendizado{
     display: inline-block;
+    line-height: 20px;
+    border: 2px solid rgb(61, 61, 230);
 }
 
 #rodape{
